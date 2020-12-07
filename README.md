@@ -6,3 +6,8 @@ It's my first project using Java for Android and I really enjoyed developing it!
 
 ## How to run?
 Clone the repo, open the project in Android Studio, hit "Run". Done! :white_check_mark:
+
+## Preview
+
+![](main_screen.jpg)
+![](results_screen.jpg)
