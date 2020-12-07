@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".resultsScreen"
+    android:layout_margin="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="97dp"
+            android:layout_height="42dp"
+            android:text="Gross Salary"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/salary_result"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inss"
+            android:layout_width="172dp"
+            android:layout_height="42dp"
+            android:text="INSS"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/inss_result"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/holo_red_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/irrf"
+            android:layout_width="172dp"
+            android:layout_height="42dp"
+            android:text="IRRF"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/irrf_result"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/holo_red_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="172dp"
+            android:layout_height="42dp"
+            android:text="Other Discounts"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/discounts_result"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/holo_red_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/liquid_salary"
+            android:layout_width="172dp"
+            android:layout_height="42dp"
+            android:text="Liquid Salary"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/liquidSalary_result"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/holo_green_light" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="70dp">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="134dp"
+            android:layout_height="51dp"
+            android:background="@android:color/holo_green_light"
+            android:onClick="backToMain"
+            android:text="Back"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</LinearLayout>
